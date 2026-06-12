@@ -1,4 +1,4 @@
-# Hack@Brown 2027 Landing Page
+# Hack@Brown 2027 Offseason Landing Page
 
 Landing page for [Hack@Brown](https://hackatbrown.org) offseason, built with Next.js and Tailwind CSS.
 
