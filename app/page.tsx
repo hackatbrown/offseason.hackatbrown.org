@@ -1,16 +1,22 @@
 import Image from "next/image";
 import Footer from "./components/Footer";
+import bgImage from "../public/assets/bg.webp";
+import buildingsImage from "../public/assets/buildings.webp";
+import logoImage from "../public/assets/logo.webp";
 
 export default function LandingPage() {
   return (
     <main className="relative min-h-dvh w-full overflow-hidden bg-purple">
       <div className="absolute inset-0 z-0">
         <Image
-          src="/assets/bg.png"
+          src={bgImage}
           alt=""
           fill
-          className="object-cover"
           priority
+          placeholder="blur"
+          sizes="100vw"
+          quality={80}
+          className="object-cover"
         />
       </div>
 
@@ -18,12 +24,12 @@ export default function LandingPage() {
         <div className="flex w-full flex-col items-center gap-8 sm:gap-10 md:w-auto md:flex-row md:items-center md:gap-14">
           <div className="shrink-0">
             <Image
-              src="/assets/logo.png"
-              width={170}
-              height={170}
-              className="h-auto w-[120px] sm:w-[140px] md:w-[170px]"
+              src={logoImage}
               alt="Hack@Brown logo"
               priority
+              placeholder="blur"
+              quality={90}
+              className="h-auto w-[120px] sm:w-[140px] md:w-[170px]"
             />
           </div>
           <div className="flex w-full flex-col items-center text-center md:w-auto md:items-start md:text-left">
@@ -49,11 +55,12 @@ export default function LandingPage() {
 
       <div className="absolute inset-x-0 bottom-0 z-10 h-[32vh] min-h-[180px] sm:h-auto sm:min-h-0">
         <Image
-          src="/assets/buildings.png"
-          width={1920}
-          height={600}
-          className="h-full w-full object-cover object-bottom sm:h-auto sm:object-fill"
+          src={buildingsImage}
           alt=""
+          placeholder="blur"
+          sizes="100vw"
+          quality={80}
+          className="h-full w-full object-cover object-bottom sm:h-auto sm:object-fill"
         />
       </div>
 
