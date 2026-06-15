@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import TrustBadgeMLH from "./components/TrustBadgeMLH";
 import "./globals.css";
 
 const bdrMono = localFont({
@@ -28,7 +29,10 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${bdrMono.variable} ${figtree.variable}`}>
-      <body>{children}</body>
+      <body>
+        <TrustBadgeMLH />
+        {children}
+      </body>
     </html>
   );
 }
