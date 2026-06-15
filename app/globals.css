@@ -3,6 +3,7 @@
 @theme inline {
   --color-yellow: #ffe788;
   --color-white: #ffffff;
+  --color-purple: #332984;
 
   --font-mono: var(--font-bdr-mono), monospace;
   --font-sans: var(--font-figtree), sans-serif;

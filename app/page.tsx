@@ -1,8 +1,9 @@
 import Image from "next/image";
+import Footer from "./components/Footer";
 
 export default function LandingPage() {
   return (
-    <main className="relative min-h-dvh w-full overflow-hidden">
+    <main className="relative min-h-dvh w-full overflow-hidden bg-purple">
       <div className="absolute inset-0 z-0">
         <Image
           src="/assets/bg.png"
@@ -56,15 +57,7 @@ export default function LandingPage() {
         />
       </div>
 
-      <div className="absolute bottom-0 left-0 z-20 w-full">
-        <Image
-          src="/assets/train.png"
-          width={3000}
-          height={200}
-          className="h-auto w-full"
-          alt=""
-        />
-      </div>
+      <Footer />
     </main>
   );
 }
