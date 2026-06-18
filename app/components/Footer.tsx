@@ -9,6 +9,15 @@ export default function Footer() {
       >
         Major League Hacking Code of Conduct
       </a>
+      <p> / Interested in sponsoring? Reach out to us at </p>
+      <a
+        href="mailto:sponsor@hackatbrown.org"
+        className="font-sans text-[10px] text-white/55 underline underline-offset-2 [text-shadow:0_1px_4px_rgba(51,41,132,0.6)] transition-colors hover:text-white/85 sm:text-xs"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        sponsor@hackatbrown.org
+        </a>
     </footer>
   );
 }
