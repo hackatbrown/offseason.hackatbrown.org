@@ -48,11 +48,11 @@ export default function LandingPage() {
               >
                 apply for organizing team
               </a>
-              <span className="text-white">! Applications close 9/14</span>
+              <span className="text-white">! Applications close 9/18</span>
             </p>
             <p className="mt-1 font-sans text-sm leading-snug md:text-base">
               <a
-                href="https://forms.gle/djsKswQbrYYmFPeh7"
+                href="https://forms.gle/nWSaovA69STQ1r4g6"
                 target="_blank"
                 className="text-yellow underline underline-offset-2"
               >
