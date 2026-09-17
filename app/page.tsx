@@ -42,7 +42,7 @@ export default function LandingPage() {
             <p className="mt-4 font-sans text-sm leading-snug sm:mt-5 md:mt-7 md:text-base">
               <span className="text-white"> Brown/RISD students: </span>
               <a
-                href="https://forms.gle/djsKswQbrYYmFPeh7"
+                href="https://forms.gle/nWSaovA69STQ1r4g6"
                 target="_blank"
                 className="text-yellow underline underline-offset-2"
               >
@@ -52,7 +52,7 @@ export default function LandingPage() {
             </p>
             <p className="mt-1 font-sans text-sm leading-snug md:text-base">
               <a
-                href="https://forms.gle/nWSaovA69STQ1r4g6"
+                href="https://forms.gle/tihPJTCnPm2tk2Bu6"
                 target="_blank"
                 className="text-yellow underline underline-offset-2"
               >
