@@ -39,7 +39,7 @@ export default function LandingPage() {
             <p className="font-mono text-xs font-bold leading-snug text-yellow [text-shadow:0_4px_4px_rgba(0,0,0,0.25)] sm:text-base md:text-[1.875rem] md:leading-none">
               COMING SOON! FEBRUARY 6-7, 2027
             </p>
-            <p className="mt-1 font-sans text-sm leading-snug md:text-base">
+            <p className="mt-4 font-sans text-sm leading-snug sm:mt-5 md:mt-7 md:text-base">
               <a
                 href="https://forms.gle/tihPJTCnPm2tk2Bu6"
                 target="_blank"
